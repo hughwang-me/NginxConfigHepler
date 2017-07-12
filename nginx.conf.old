@@ -20,7 +20,7 @@ http {
     #access_log  /home/keruis/nginxWebRoot/logs/access.log;
 
     location / {
-      root   /home/keruis/www;
+      root   /home/nginx/www;
       index  index.html;
     }
     error_page   500 502 503 504  /50x.html;
